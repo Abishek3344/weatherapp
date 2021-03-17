@@ -13,7 +13,7 @@ function getInfo() {
     // check is user input matches username and password
     if (username == "admin" && password == "123456") {
 
-        location.replace("index.html");
+        location.replace("weather.html");
 
         // stop the function if this is found to be true
         return;
